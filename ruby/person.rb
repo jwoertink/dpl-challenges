@@ -14,11 +14,11 @@ class Person
   end
   # This returns a string of the person's first name
   def first_name
-    name.split(' ').first
+    name.split(' ')[0]
   end
   # This returns a string of the person's last name
   def last_name
-    name.split(' ').last
+    name.split(' ')[1]
   end
   # This returns a string of the person's age
   def age

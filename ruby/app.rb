@@ -7,7 +7,7 @@ age = gets
 
 dude = Person.new(name: name, age: age)
 
-dude.say 'Hi there, my name is #{dude.first_name}!'
+dude.say "Hi there, my name is #{dude.first_name}"
 
 dude. say "I'm only #{dude.age} years old."
 
