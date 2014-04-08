@@ -26,7 +26,7 @@ class Person
   end
   # This returns a fixnum of the person's birthyear
   def birthyear
-     (age.to_i - Time.now.year.to_i)
+     (age.to_i - Time.now.year.to_i).abs
   end
   # This printss to the console
   def say(words)
