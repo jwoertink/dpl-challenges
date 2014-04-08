@@ -26,7 +26,7 @@ class Person
   end
 
   def birthyear
-     age.to_i - Time.now.to_i
+     (age.to_i - Time.now.year.to_i)
   end
 
   def say(words)
