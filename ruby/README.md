@@ -1,9 +1,14 @@
 # Ruby Challenge
 
 ## Running
+Run the app with
 
-  ruby ruby/app.rb
+  ruby app.rb
 
+Run the test suite with
+
+  ruby test_suite.rb
+  
 ## Concept
 
 This command line program asks you to name your character, and give it an age.
@@ -28,8 +33,3 @@ The app is currently broken. Running it fails with all kinds of errors. Please h
 2. Use clean code. Proper syntax, and indentation are a must.
 3. Document all methods in the person class
 4. Make all tests pass
-
-
-## Bonus
-
-1. If completed early - try out https://www.bloc.io/ruby-warrior/
